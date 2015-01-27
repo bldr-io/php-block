@@ -25,7 +25,7 @@ class LintTask extends AbstractTask
     use FinderAwareTrait;
 
     /**
-     * @var Linter $linter
+     * @var Linter\Manager $linter
      */
     private $linter;
 
