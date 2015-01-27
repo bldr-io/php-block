@@ -1,0 +1,24 @@
+{
+    "name": "bldr-io/php-block",
+    "description": "Block for handling PHP-related tasks",
+    "authors": [
+        {
+            "name": "Ameen Ross",
+            "email": "a.ross@amdev.eu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "jakub-onderka/php-parallel-lint": "0.*"
+    },
+    "require-dev": {
+        "bldr-io/bldr": "~7.0",
+        "dflydev/embedded-composer": "@dev",
+        "composer/composer": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bldr\\Block\\Php\\": "src/"
+        }
+    }
+}
