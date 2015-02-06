@@ -20,5 +20,8 @@
         "psr-4": {
             "Bldr\\Block\\Php\\": "src/"
         }
+    },
+    "extra": {
+        "block-class": "Bldr\\Block\\Php\\PhpBlock"
     }
 }
