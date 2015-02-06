@@ -12,7 +12,7 @@
         "jakub-onderka/php-parallel-lint": "0.*"
     },
     "require-dev": {
-        "bldr-io/bldr": "~7.0",
+        "bldr-io/bldr": "~8.0",
         "dflydev/embedded-composer": "@dev",
         "composer/composer": "@dev"
     },
